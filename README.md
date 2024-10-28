@@ -22,11 +22,15 @@ Para configurar el proyecto localmente, sigue estos pasos:
     ```
 2. Navega al directorio del proyecto:
     ```bash
-    cd Taller-TS-2
+    cd Taller-Angular
     ```
 3. Instala las dependencias:
     ```bash
     npm install
+    ```
+4. Inicia el proyecto en un puerto:
+    ```bash
+    ng s
     ```
 
 ## Uso
@@ -53,6 +57,4 @@ El repositorio se compone de múltiples archivos y directorios, principalmente:
 3. Realiza tus cambios (`git commit -m 'Añadir nueva característica'`).
 4. Sube los cambios a la rama (`git push origin feature-branch`).
 5. Abre un pull request.
-6. Ya en Visual ejecuta el comando (`npm install`) para descargar las dependencias.
-7. Inicia el servidor con (`ng s`)
 
