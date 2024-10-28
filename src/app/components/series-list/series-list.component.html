@@ -1,0 +1,26 @@
+<div class="col-md-6">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Channel</th>
+        <th scope="col">Seasons</th>
+      </tr>
+    </thead>
+    <tbody id='TableBody'>
+      <tr *ngFor="let serie of series" (click)="onSelect(serie)">
+        <td>{{ serie.id }}</td>
+        <td>{{ serie.title }}</td>
+        <td>{{ serie.network }}</td>
+        <td>{{ serie.seasons }}</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Promedio de Temporadas: {{ averageSeasons }}</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
